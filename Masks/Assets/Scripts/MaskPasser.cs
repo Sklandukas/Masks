@@ -11,7 +11,7 @@ public class MaskPasser : MonoBehaviour
     [Header("Flight")]
     public float flightTime = 0.35f;   // kiek laiko skrenda
     public float arcHeight = 1.2f;     // arkos aukštis
-
+    public float maxScaleMultiplier = 2f;
     private enum Holder { Player1, Player2 }
     [SerializeField] private Holder holder = Holder.Player1;
 
@@ -19,7 +19,6 @@ public class MaskPasser : MonoBehaviour
 
     void Start()
     {
-        // Pradžioje "prikabinam" prie turėtojo rankos
         AttachToHolder();
     }
 
@@ -30,14 +29,12 @@ public class MaskPasser : MonoBehaviour
         var kb = Keyboard.current;
         if (kb == null) return;
 
-        // Player1 turi objektą -> kairysis SHIFT meta pas Player2
         if (holder == Holder.Player1 && kb.leftShiftKey.wasPressedThisFrame)
         {
             StartCoroutine(FlyTo(player2Hand, Holder.Player2));
             return;
         }
 
-        // Player2 turi objektą -> dešinysis SHIFT meta atgal pas Player1
         if (holder == Holder.Player2 && kb.rightShiftKey.wasPressedThisFrame)
         {
             StartCoroutine(FlyTo(player1Hand, Holder.Player1));
@@ -59,32 +56,39 @@ public class MaskPasser : MonoBehaviour
     {
         isFlying = true;
 
-        // atkabinam nuo rankos, kad galėtų judėti laisvai
         transform.SetParent(null);
 
         Vector3 startPos = transform.position;
         Vector3 endPos = target.position;
 
+        Vector3 baseScale = transform.localScale; 
+        transform.localScale = baseScale;         
+
         float t = 0f;
+
         while (t < 1f)
         {
-            t += Time.deltaTime / Mathf.Max(0.0001f, flightTime);
+            float p = Mathf.Clamp01(t);
 
-            // Lerp tarp start/end
-            Vector3 pos = Vector3.Lerp(startPos, endPos, t);
+            Vector3 pos = Vector3.Lerp(startPos, endPos, p);
 
-            // Arka (parabolė): 4t(1-t) duoda gražų "kupolą"
-            float height = 4f * t * (1f - t) * arcHeight;
-            pos.y += height;
+            float arc = 4f * p * (1f - p);
+            pos.y += arc * arcHeight;
 
             transform.position = pos;
+
+            float scaleMul = Mathf.Lerp(1f, maxScaleMultiplier, arc);
+            transform.localScale = baseScale * scaleMul;
+
             yield return null;
+            t += Time.deltaTime / Mathf.Max(0.0001f, flightTime);
         }
 
-        // pabaigoje "prikabinam" prie gavėjo rankos
         holder = newHolder;
-        AttachToHolder();
+        AttachToHolder(); 
 
         isFlying = false;
     }
+
+
 }
