@@ -140,6 +140,10 @@ MonoBehaviour:
   player2Hand: {fileID: 1940884125}
   flightTime: 0.35
   arcHeight: 1.2
+  maxScaleMultiplier: 2
+  spinDegrees: 720
+  spinAxis: {x: 0, y: 1, z: 0}
+  useWorldAxis: 0
   holder: 0
 --- !u!1 &223069922
 GameObject:
@@ -594,7 +598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8781861339164150153, guid: cb26f6e078aee33468548191ccdbc698, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99991995
       objectReference: {fileID: 0}
     - target: {fileID: 8781861339164150153, guid: cb26f6e078aee33468548191ccdbc698, type: 3}
       propertyPath: m_LocalRotation.x
@@ -602,7 +606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8781861339164150153, guid: cb26f6e078aee33468548191ccdbc698, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.012653317
       objectReference: {fileID: 0}
     - target: {fileID: 8781861339164150153, guid: cb26f6e078aee33468548191ccdbc698, type: 3}
       propertyPath: m_LocalRotation.z
@@ -614,7 +618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8781861339164150153, guid: cb26f6e078aee33468548191ccdbc698, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 1.45
       objectReference: {fileID: 0}
     - target: {fileID: 8781861339164150153, guid: cb26f6e078aee33468548191ccdbc698, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z

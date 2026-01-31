@@ -85,8 +85,8 @@ public class MaskPasser : MonoBehaviour
             float scaleMul = Mathf.Lerp(1f, maxScaleMultiplier, arc);
             transform.localScale = baseScale * scaleMul;
 
-            float angle = spinDegrees * p;
-            transform.rotation = startRot * Quaternion.Euler(0f, 0f, angle);
+            float angleX = spinDegrees * p;
+            transform.rotation = startRot * Quaternion.Euler(0f, 0f, angleX);
 
             yield return null;
             t += Time.deltaTime / Mathf.Max(0.0001f, flightTime);
