@@ -2,85 +2,84 @@ using UnityEngine;
 
 public class ObstacleBehaviour : MonoBehaviour
 {
-    // 1. Define the possible states (You can add more later)
-    public enum GameState { BeKaukes, SuKauke }
-
-    [Header("Designer Setup")]
-    public Sprite beKaukes;      // Drag the "Standard" look here
-    public Sprite suKauke;   // Drag the "Spooky/Hidden" look here
-
-    [Header("Colour Fallback (used when sprite not set)")]
-    [Tooltip("Colour when state is BeKaukes. Used only if beKaukes is not assigned.")]
-    public Color spalveBeKaukes = Color.white;
-    [Tooltip("Colour when state is SuKauke. Used only if suKauke is not assigned.")]
-    public Color spalveSuKauke = Color.gray;
-
-    [Tooltip("If false, the object vanishes completely in SuKauke state")]
-    public bool existsInSuKauke = true;
+    [Header("Designer Settings")]
+    [Tooltip("Sprite shown when mask is OFF (normal mode).")]
+    public Sprite normalSprite;
+    [Tooltip("Sprite shown when mask is ON (masked version).")]
+    public Sprite alternateSprite;
+    [Tooltip("If false, this obstacle is hidden completely when mask is ON (no sprite, no collision).")]
+    public bool existsInAlternate = true;
 
     private SpriteRenderer myRenderer;
     private Collider2D myCollider;
+    private LaneStateManager myLaneManager;
 
     void Awake()
     {
-        // Grab references to the components on this object
         myRenderer = GetComponent<SpriteRenderer>();
         myCollider = GetComponent<Collider2D>();
     }
 
     void Start()
     {
-        // Set default look
-        UpdateObstacleState(GameState.BeKaukes);
+        Debug.Log($"[ObstacleBehaviour] '{gameObject.name}' started");
+        myLaneManager = GetComponentInParent<LaneStateManager>();
+        if (myLaneManager != null)
+            StartListeningToLaneManager();
+        else
+            Debug.LogError($"[ObstacleBehaviour] '{gameObject.name}' is missing LaneStateManager. Assign one in the Inspector.", this);
     }
 
-    // Call this function from your GameManager whenever state changes!
-    public void UpdateObstacleState(GameState newState)
+    void StartListeningToLaneManager()
     {
-        if (newState == GameState.BeKaukes)
+        Debug.Log($"[ObstacleBehaviour] '{gameObject.name}' started listening to LaneStateManager");
+        myLaneManager.OnMaskStateChanged += UpdateVisuals;
+        UpdateVisuals(myLaneManager.isMaskOn);
+    }
+
+    void OnDestroy()
+    {
+        StopListeningToLaneManager();
+    }
+
+    void StopListeningToLaneManager()
+    {
+        if (myLaneManager != null)
         {
-            if (beKaukes != null)
-            {
-                myRenderer.sprite = beKaukes;
-                myRenderer.color = Color.white;
-            }
-            else
-            {
-                myRenderer.color = spalveBeKaukes;
-            }
-            myRenderer.enabled = true;
-            myCollider.enabled = true;
+            myLaneManager.OnMaskStateChanged -= UpdateVisuals;
         }
-        else if (newState == GameState.SuKauke)
+    }
+
+    void UpdateVisuals(bool maskActive)
+    {
+        Debug.Log($"[ObstacleBehaviour] '{gameObject.name}' updated visuals to {maskActive}");
+        if (maskActive)
         {
-            if (existsInSuKauke)
+            if (existsInAlternate)
             {
-                if (suKauke != null)
-                {
-                    myRenderer.sprite = suKauke;
-                    myRenderer.color = spalveSuKauke;
-                }
-                else
-                {
-                    myRenderer.color = spalveSuKauke;
-                }
+                myRenderer.sprite = alternateSprite;
+                myRenderer.enabled = true;
+                myCollider.enabled = true;
             }
             else
             {
-                // Disable it completely (invisible and no collision)
                 myRenderer.enabled = false;
                 myCollider.enabled = false;
             }
         }
+        else
+        {
+            myRenderer.sprite = normalSprite;
+            myRenderer.enabled = true;
+            myCollider.enabled = true;
+        }
     }
-    
-    // Logic for hitting the player
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             Debug.Log("Player hit " + gameObject.name);
-            // Add your damage logic here later
         }
     }
 }
