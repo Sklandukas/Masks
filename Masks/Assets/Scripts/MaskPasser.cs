@@ -7,6 +7,12 @@ public class MaskPasser : MonoBehaviour
     public Transform player1Hand;
     public Transform player2Hand;
 
+    [Header("Lane state (one manager per player level)")]
+    [Tooltip("LaneStateManager on Player1's level. Mask on = true when mask is with Player1.")]
+    public LaneStateManager laneManagerForPlayer1;
+    [Tooltip("LaneStateManager on Player2's level. Mask on = true when mask is with Player2.")]
+    public LaneStateManager laneManagerForPlayer2;
+
     [Header("Flight")]
     public float flightTime = 0.35f;   // kiek laiko skrenda
     public float arcHeight = 1.2f;     // arkos aukštis
@@ -25,6 +31,7 @@ public class MaskPasser : MonoBehaviour
     void Start()
     {
         AttachToHolder();
+        UpdateLaneManagersForHolder(holder);
     }
 
     void Update()
@@ -94,8 +101,16 @@ public class MaskPasser : MonoBehaviour
 
         holder = newHolder;
         AttachToHolder();
+        UpdateLaneManagersForHolder(holder);
 
         isFlying = false;
     }
 
+    void UpdateLaneManagersForHolder(Holder whoHasMask)
+    {
+        if (laneManagerForPlayer1 != null)
+            laneManagerForPlayer1.SetMaskState(whoHasMask == Holder.Player1);
+        if (laneManagerForPlayer2 != null)
+            laneManagerForPlayer2.SetMaskState(whoHasMask == Holder.Player2);
+    }
 }
