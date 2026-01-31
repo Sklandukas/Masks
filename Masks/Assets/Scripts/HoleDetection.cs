@@ -9,8 +9,8 @@ public class HoleDetecion : MonoBehaviour
     [Header("Disappear Animation")]
     [SerializeField] private float popUpScalePercent = 0.10f;
     [SerializeField] private float popDuration = 0.12f;
+    [SerializeField] private float holdDuration = 0.10f;     
     [SerializeField] private float shrinkDuration = 0.35f;
-    [SerializeField] private float holdDuration = 0.10f;
     [SerializeField] private float spinDegrees = 720f;
 
     private bool triggered;
@@ -30,16 +30,14 @@ public class HoleDetecion : MonoBehaviour
         triggered = true;
 
         gameManager?.BeginGameOverSequence();
-        gameManager?.GameOver(); 
 
         var rb = other.attachedRigidbody; 
         if (rb != null)
         {
-            rb.linearVelocity = Vector2.zero;   
+            rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
             rb.simulated = false;
         }
-
         other.enabled = false;
 
         StartCoroutine(AnimateThenDisappear(other.transform, other.gameObject));
@@ -52,7 +50,6 @@ public class HoleDetecion : MonoBehaviour
 
         Vector3 startScale = target.localScale;
         Vector3 popScale = startScale * (1f + popUpScalePercent);
-
         Quaternion startRot = target.rotation;
 
         float t = 0f;
@@ -63,7 +60,6 @@ public class HoleDetecion : MonoBehaviour
 
             target.rotation = startRot;
             target.localScale = Vector3.Lerp(startScale, popScale, k);
-
             KeepVisualCenterFixed(target, rend, lockedVisualCenter);
 
             yield return null;
@@ -87,26 +83,22 @@ public class HoleDetecion : MonoBehaviour
             float z = spinDegrees * k;
             target.rotation = startRot * Quaternion.Euler(0f, 0f, z);
             target.localScale = Vector3.Lerp(popScale, Vector3.zero, k);
-
             KeepVisualCenterFixed(target, rend, lockedVisualCenter);
 
             yield return null;
         }
 
         Destroy(targetGO);
+
+        gameManager?.ShowGameOverUI();
     }
 
     private void KeepVisualCenterFixed(Transform target, Renderer rend, Vector3 lockedCenter)
     {
-        if (rend == null)
-        {
-            return;
-        }
+        if (rend == null) return;
 
         Vector3 currentCenter = rend.bounds.center;
-
         Vector3 delta = lockedCenter - currentCenter;
-
         target.position += delta;
     }
 }
