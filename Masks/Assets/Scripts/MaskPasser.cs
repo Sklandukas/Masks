@@ -14,14 +14,14 @@ public class MaskPasser : MonoBehaviour
     public LaneStateManager laneManagerForPlayer2;
 
     [Header("Flight")]
-    public float flightTime = 0.35f;   // kiek laiko skrenda
-    public float arcHeight = 1.2f;     // arkos aukštis
+    public float flightTime = 0.35f;   
+    public float arcHeight = 1.2f;     
     public float maxScaleMultiplier = 2f;
 
     [Header("Rotation in flight")]
-    public float spinDegrees = 720f;            // kiek laipsniu apsisuka per visa skrydi (360 = 1x)
-    public Vector3 spinAxis = Vector3.up;       // sukimosi asis
-    public bool useWorldAxis = false;           // true = world, false = local
+    public float spinDegrees = 360f;            
+    public Vector3 spinAxis = Vector3.up;       
+    public bool useWorldAxis = false;           
 
     private enum Holder { Player1, Player2 }
     [SerializeField] private Holder holder = Holder.Player1;
@@ -72,15 +72,13 @@ public class MaskPasser : MonoBehaviour
         Vector3 endPos = target.position;
 
         Vector3 baseScale = transform.localScale;
-        transform.localScale = baseScale;
+        Quaternion startRot = transform.rotation;
 
-        Quaternion startRot = transform.rotation; // <- pradine rotacija
+        float elapsed = 0f;
 
-        float t = 0f;
-
-        while (t < 1f)
+        while (elapsed < flightTime)
         {
-            float p = Mathf.Clamp01(t);
+            float p = Mathf.Clamp01(elapsed / Mathf.Max(0.0001f, flightTime));
 
             Vector3 pos = Vector3.Lerp(startPos, endPos, p);
 
@@ -92,12 +90,17 @@ public class MaskPasser : MonoBehaviour
             float scaleMul = Mathf.Lerp(1f, maxScaleMultiplier, arc);
             transform.localScale = baseScale * scaleMul;
 
-            float angleX = spinDegrees * p;
-            transform.rotation = startRot * Quaternion.Euler(0f, 0f, angleX);
+            float angleZ = spinDegrees * p;
+            transform.rotation = startRot * Quaternion.Euler(0f, 0f, angleZ);
 
+            elapsed += Time.deltaTime;
             yield return null;
-            t += Time.deltaTime / Mathf.Max(0.0001f, flightTime);
         }
+
+        // final snap (kad 100% būtų tvarkingai)
+        transform.position = endPos;
+        transform.localScale = baseScale;
+        transform.rotation = startRot * Quaternion.Euler(0f, 0f, spinDegrees);
 
         holder = newHolder;
         AttachToHolder();

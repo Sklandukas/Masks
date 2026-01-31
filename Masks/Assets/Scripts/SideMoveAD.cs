@@ -10,7 +10,7 @@ public class SideMoveAD : MonoBehaviour
         float x = 0f;
 
         var kb = Keyboard.current;
-        if (kb == null) return; // jei nėra klaviatūros (pvz. mobile)
+        if (kb == null) return; 
 
         if (kb.aKey.isPressed) x -= 1f;
         if (kb.dKey.isPressed) x += 1f;
