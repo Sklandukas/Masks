@@ -81,5 +81,9 @@ public class ObstacleBehaviour : MonoBehaviour
         {
             Debug.Log("Player hit " + gameObject.name);
         }
+        else
+        {
+            Debug.Log($"[ObstacleBehaviour] '{gameObject.name}' hit by {other.gameObject.name}");
+        }
     }
 }
