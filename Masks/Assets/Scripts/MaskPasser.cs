@@ -2,7 +2,6 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-
 public class MaskPasser : MonoBehaviour
 {
     public Transform player1Hand;
@@ -12,6 +11,12 @@ public class MaskPasser : MonoBehaviour
     public float flightTime = 0.35f;   // kiek laiko skrenda
     public float arcHeight = 1.2f;     // arkos aukštis
     public float maxScaleMultiplier = 2f;
+
+    [Header("Rotation in flight")]
+    public float spinDegrees = 720f;            // kiek laipsniu apsisuka per visa skrydi (360 = 1x)
+    public Vector3 spinAxis = Vector3.up;       // sukimosi asis
+    public bool useWorldAxis = false;           // true = world, false = local
+
     private enum Holder { Player1, Player2 }
     [SerializeField] private Holder holder = Holder.Player1;
 
@@ -42,8 +47,6 @@ public class MaskPasser : MonoBehaviour
         }
     }
 
-
-
     private void AttachToHolder()
     {
         Transform targetHand = (holder == Holder.Player1) ? player1Hand : player2Hand;
@@ -61,8 +64,10 @@ public class MaskPasser : MonoBehaviour
         Vector3 startPos = transform.position;
         Vector3 endPos = target.position;
 
-        Vector3 baseScale = transform.localScale; 
-        transform.localScale = baseScale;         
+        Vector3 baseScale = transform.localScale;
+        transform.localScale = baseScale;
+
+        Quaternion startRot = transform.rotation; // <- pradine rotacija
 
         float t = 0f;
 
@@ -80,15 +85,17 @@ public class MaskPasser : MonoBehaviour
             float scaleMul = Mathf.Lerp(1f, maxScaleMultiplier, arc);
             transform.localScale = baseScale * scaleMul;
 
+            float angle = spinDegrees * p;
+            transform.rotation = startRot * Quaternion.Euler(0f, 0f, angle);
+
             yield return null;
             t += Time.deltaTime / Mathf.Max(0.0001f, flightTime);
         }
 
         holder = newHolder;
-        AttachToHolder(); 
+        AttachToHolder();
 
         isFlying = false;
     }
-
 
 }
