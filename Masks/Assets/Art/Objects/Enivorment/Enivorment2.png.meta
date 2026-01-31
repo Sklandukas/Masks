@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: 4b2fa7666cfbe1940951a88c1c365f81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4664871045015914965
+    second: Enivorment2_0
+  - first:
+      213: -4863921084611065718
+    second: Enivorment2_1
+  - first:
+      213: 4643203463886718950
+    second: Enivorment2_2
+  - first:
+      213: -6980803007162769385
+    second: Enivorment2_3
+  - first:
+      213: 409139833865031255
+    second: Enivorment2_4
+  - first:
+      213: -2586867146697857504
+    second: Enivorment2_5
+  - first:
+      213: 1781090434705770769
+    second: Enivorment2_6
+  - first:
+      213: -8574360276905117292
+    second: Enivorment2_7
+  - first:
+      213: 6880788349197909807
+    second: Enivorment2_8
+  - first:
+      213: -1648214583151962757
+    second: Enivorment2_9
+  - first:
+      213: 5801160034308260627
+    second: Enivorment2_10
+  - first:
+      213: 1747213481780707969
+    second: Enivorment2_11
+  - first:
+      213: 3285852748772116366
+    second: Enivorment2_12
+  - first:
+      213: 7103951684602051995
+    second: Enivorment2_13
+  - first:
+      213: 1268518558056782365
+    second: Enivorment2_14
+  - first:
+      213: -6080230865658952835
+    second: Enivorment2_15
+  - first:
+      213: -1549002506531358548
+    second: Enivorment2_16
+  - first:
+      213: -6387216302560122600
+    second: Enivorment2_17
+  - first:
+      213: 1136728974457867834
+    second: Enivorment2_18
+  - first:
+      213: 1625463672026928028
+    second: Enivorment2_19
+  - first:
+      213: 1620666050334668901
+    second: Enivorment2_20
+  - first:
+      213: -6352202741070948842
+    second: Enivorment2_21
+  - first:
+      213: -5521275016434184318
+    second: Enivorment2_22
+  - first:
+      213: -5780219878314561731
+    second: Enivorment2_23
+  - first:
+      213: -1343149088123438767
+    second: Enivorment2_24
+  - first:
+      213: 6162357338993785592
+    second: Enivorment2_25
+  - first:
+      213: 2090380127905569461
+    second: Enivorment2_26
+  - first:
+      213: -8547247223441271408
+    second: Enivorment2_27
+  - first:
+      213: 159381599235266203
+    second: Enivorment2_28
+  - first:
+      213: -7872985115012148658
+    second: Enivorment2_29
+  - first:
+      213: 3307679463848227477
+    second: Enivorment2_30
+  - first:
+      213: 1155599941590745845
+    second: Enivorment2_31
+  - first:
+      213: -8900398541569255260
+    second: Enivorment2_32
+  - first:
+      213: -4470455002908360066
+    second: Enivorment2_33
+  - first:
+      213: -9155855170135181670
+    second: Enivorment2_34
+  - first:
+      213: 8177947807428821138
+    second: Enivorment2_35
+  - first:
+      213: 1655001090907677309
+    second: Enivorment2_36
+  - first:
+      213: -8076383684831844136
+    second: Enivorment2_37
+  - first:
+      213: -1431702123281845913
+    second: Enivorment2_38
+  - first:
+      213: -8958126856213978623
+    second: Enivorment2_39
+  - first:
+      213: 7237088357482114008
+    second: Enivorment2_40
+  - first:
+      213: 767964537426078706
+    second: Enivorment2_41
+  - first:
+      213: -5091435849576425316
+    second: Enivorment2_42
+  - first:
+      213: 2886434686108139491
+    second: Enivorment2_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enivorment2_0
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 7036
+        width: 529
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2632d6008c034fb0800000000000000
+      internalID: -4664871045015914965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_1
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 6912
+        width: 994
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8889303b81ef7cb0800000000000000
+      internalID: -4863921084611065718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_2
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 7160
+        width: 467
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7c4dc13f8ff6040800000000000000
+      internalID: 4643203463886718950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_3
+      rect:
+        serializedVersion: 2
+        x: 4246
+        y: 7129
+        width: 436
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710a51f96a43f1f90800000000000000
+      internalID: -6980803007162769385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_4
+      rect:
+        serializedVersion: 2
+        x: 5207
+        y: 7036
+        width: 436
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75eccfcd28e8da500800000000000000
+      internalID: 409139833865031255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_5
+      rect:
+        serializedVersion: 2
+        x: 6261
+        y: 7036
+        width: 405
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02622ff290a991cd0800000000000000
+      internalID: -2586867146697857504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_6
+      rect:
+        serializedVersion: 2
+        x: 7253
+        y: 7036
+        width: 436
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119cb715054b7b810800000000000000
+      internalID: 1781090434705770769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 6168
+        width: 312
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499b9dec1c0c10980800000000000000
+      internalID: -8574360276905117292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_8
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 6199
+        width: 405
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f76903c887d7f50800000000000000
+      internalID: 6880788349197909807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_9
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 5982
+        width: 653
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75db99b19d5029e0800000000000000
+      internalID: -1648214583151962757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_10
+      rect:
+        serializedVersion: 2
+        x: 3254
+        y: 6106
+        width: 1676
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313032ab05cd18050800000000000000
+      internalID: 5801160034308260627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_11
+      rect:
+        serializedVersion: 2
+        x: 5269
+        y: 6230
+        width: 312
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182005097695f3810800000000000000
+      internalID: 1747213481780707969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_12
+      rect:
+        serializedVersion: 2
+        x: 6261
+        y: 6168
+        width: 405
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e878dc27aa1b99d20800000000000000
+      internalID: 3285852748772116366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_13
+      rect:
+        serializedVersion: 2
+        x: 7129
+        y: 6013
+        width: 653
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d3e363b6e469260800000000000000
+      internalID: 7103951684602051995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_14
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 4990
+        width: 653
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a17fb58eeaa9110800000000000000
+      internalID: 1268518558056782365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_15
+      rect:
+        serializedVersion: 2
+        x: 4091
+        y: 5703
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73480cfd3eae9ba0800000000000000
+      internalID: -6080230865658952835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_16
+      rect:
+        serializedVersion: 2
+        x: 5238
+        y: 5207
+        width: 374
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca832026d66d08ae0800000000000000
+      internalID: -1549002506531358548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_17
+      rect:
+        serializedVersion: 2
+        x: 7129
+        y: 5021
+        width: 653
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819e15e1d9c0c57a0800000000000000
+      internalID: -6387216302560122600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 5176
+        width: 374
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e8478caf876cf00800000000000000
+      internalID: 1136728974457867834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_19
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 5176
+        width: 405
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93977ef89ece8610800000000000000
+      internalID: 1625463672026928028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_20
+      rect:
+        serializedVersion: 2
+        x: 6261
+        y: 5207
+        width: 405
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568bbb5af23cd7610800000000000000
+      internalID: 1620666050334668901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 4091
+        width: 343
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616143d234178d7a0800000000000000
+      internalID: -6352202741070948842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_22
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 4091
+        width: 343
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f833220ad7063b0800000000000000
+      internalID: -5521275016434184318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_23
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 3998
+        width: 653
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fa86545a888cfa0800000000000000
+      internalID: -5780219878314561731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_24
+      rect:
+        serializedVersion: 2
+        x: 5269
+        y: 4060
+        width: 343
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159330a450d2c5de0800000000000000
+      internalID: -1343149088123438767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_25
+      rect:
+        serializedVersion: 2
+        x: 6292
+        y: 4060
+        width: 343
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fafeb9a957158550800000000000000
+      internalID: 6162357338993785592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_26
+      rect:
+        serializedVersion: 2
+        x: 7129
+        y: 4029
+        width: 653
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bad859a6a5820d10800000000000000
+      internalID: 2090380127905569461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_27
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 3192
+        width: 157
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095d65f7fe3126980800000000000000
+      internalID: -8547247223441271408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_28
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 3192
+        width: 157
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96d62658bc363200800000000000000
+      internalID: 159381599235266203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_29
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 3130
+        width: 219
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4253c130c98db290800000000000000
+      internalID: -7872985115012148658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_30
+      rect:
+        serializedVersion: 2
+        x: 5455
+        y: 3254
+        width: 157
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592378192fc37ed20800000000000000
+      internalID: 3307679463848227477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_31
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 3254
+        width: 157
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f28af43604890010800000000000000
+      internalID: 1155599941590745845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_32
+      rect:
+        serializedVersion: 2
+        x: 7346
+        y: 3161
+        width: 219
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a81c5aceae6b7480800000000000000
+      internalID: -8900398541569255260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2169
+        width: 467
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72874f3cd0c5f1c0800000000000000
+      internalID: -4470455002908360066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_34
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 2045
+        width: 157
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a963b298b3edfe080800000000000000
+      internalID: -9155855170135181670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_35
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 2076
+        width: 219
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290ca75c338ed7170800000000000000
+      internalID: 8177947807428821138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_36
+      rect:
+        serializedVersion: 2
+        x: 5207
+        y: 2231
+        width: 467
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72af6e39beb7f610800000000000000
+      internalID: 1655001090907677309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_37
+      rect:
+        serializedVersion: 2
+        x: 6447
+        y: 2107
+        width: 157
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d866d344dbeaef80800000000000000
+      internalID: -8076383684831844136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_38
+      rect:
+        serializedVersion: 2
+        x: 7315
+        y: 2107
+        width: 219
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761fc9d1182912ce0800000000000000
+      internalID: -1431702123281845913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_39
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 1053
+        width: 281
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102aa7226175ea380800000000000000
+      internalID: -8958126856213978623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_40
+      rect:
+        serializedVersion: 2
+        x: 5331
+        y: 960
+        width: 994
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db26d3748d4f6460800000000000000
+      internalID: 7237088357482114008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_41
+      rect:
+        serializedVersion: 2
+        x: 7284
+        y: 1084
+        width: 281
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbe06d8dab58aa00800000000000000
+      internalID: 767964537426078706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_42
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 61
+        width: 281
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98de4502169759b0800000000000000
+      internalID: -5091435849576425316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enivorment2_43
+      rect:
+        serializedVersion: 2
+        x: 7284
+        y: 92
+        width: 281
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef77d4dd0dae0820800000000000000
+      internalID: 2886434686108139491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Enivorment2_0: -4664871045015914965
+      Enivorment2_1: -4863921084611065718
+      Enivorment2_10: 5801160034308260627
+      Enivorment2_11: 1747213481780707969
+      Enivorment2_12: 3285852748772116366
+      Enivorment2_13: 7103951684602051995
+      Enivorment2_14: 1268518558056782365
+      Enivorment2_15: -6080230865658952835
+      Enivorment2_16: -1549002506531358548
+      Enivorment2_17: -6387216302560122600
+      Enivorment2_18: 1136728974457867834
+      Enivorment2_19: 1625463672026928028
+      Enivorment2_2: 4643203463886718950
+      Enivorment2_20: 1620666050334668901
+      Enivorment2_21: -6352202741070948842
+      Enivorment2_22: -5521275016434184318
+      Enivorment2_23: -5780219878314561731
+      Enivorment2_24: -1343149088123438767
+      Enivorment2_25: 6162357338993785592
+      Enivorment2_26: 2090380127905569461
+      Enivorment2_27: -8547247223441271408
+      Enivorment2_28: 159381599235266203
+      Enivorment2_29: -7872985115012148658
+      Enivorment2_3: -6980803007162769385
+      Enivorment2_30: 3307679463848227477
+      Enivorment2_31: 1155599941590745845
+      Enivorment2_32: -8900398541569255260
+      Enivorment2_33: -4470455002908360066
+      Enivorment2_34: -9155855170135181670
+      Enivorment2_35: 8177947807428821138
+      Enivorment2_36: 1655001090907677309
+      Enivorment2_37: -8076383684831844136
+      Enivorment2_38: -1431702123281845913
+      Enivorment2_39: -8958126856213978623
+      Enivorment2_4: 409139833865031255
+      Enivorment2_40: 7237088357482114008
+      Enivorment2_41: 767964537426078706
+      Enivorment2_42: -5091435849576425316
+      Enivorment2_43: 2886434686108139491
+      Enivorment2_5: -2586867146697857504
+      Enivorment2_6: 1781090434705770769
+      Enivorment2_7: -8574360276905117292
+      Enivorment2_8: 6880788349197909807
+      Enivorment2_9: -1648214583151962757
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
