@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: beKaukes
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2387126991567910088, guid: fef0ddcaf90a24b43aaa038de46d9128, type: 3}
+      propertyPath: alternateSprite
+      value: 
+      objectReference: {fileID: -4863921084611065718, guid: 4b2fa7666cfbe1940951a88c1c365f81, type: 3}
     - target: {fileID: 3410401128301775266, guid: fef0ddcaf90a24b43aaa038de46d9128, type: 3}
       propertyPath: m_Name
       value: MagicObstacle Variant

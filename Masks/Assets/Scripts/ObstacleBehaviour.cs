@@ -32,6 +32,7 @@ public class ObstacleBehaviour : MonoBehaviour
 
     void StartListeningToLaneManager()
     {
+        Debug.Log($"[ObstacleBehaviour] '{gameObject.name}' started listening to LaneStateManager");
         myLaneManager.OnMaskStateChanged += UpdateVisuals;
         UpdateVisuals(myLaneManager.isMaskOn);
     }
@@ -51,6 +52,7 @@ public class ObstacleBehaviour : MonoBehaviour
 
     void UpdateVisuals(bool maskActive)
     {
+        Debug.Log($"[ObstacleBehaviour] '{gameObject.name}' updated visuals to {maskActive}");
         if (maskActive)
         {
             if (existsInAlternate)
