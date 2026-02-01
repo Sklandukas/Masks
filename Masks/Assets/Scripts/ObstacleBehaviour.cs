@@ -13,6 +13,7 @@ public class ObstacleBehaviour : MonoBehaviour
     private SpriteRenderer myRenderer;
     private Collider2D myCollider;
     private LaneStateManager myLaneManager;
+    private bool hit = false;
 
     void Awake()
     {
@@ -53,7 +54,7 @@ public class ObstacleBehaviour : MonoBehaviour
     void UpdateVisuals(bool maskActive)
     {
         Debug.Log($"[ObstacleBehaviour] '{gameObject.name}' updated visuals to {maskActive}");
-        if (maskActive)
+        if (maskActive || hit)
         {
             if (existsInAlternate)
             {
@@ -79,11 +80,9 @@ public class ObstacleBehaviour : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            hit = true;
+            UpdateVisuals(true);
             Debug.Log("Player hit " + gameObject.name);
-        }
-        else
-        {
-            Debug.Log($"[ObstacleBehaviour] '{gameObject.name}' hit by {other.gameObject.name}");
         }
     }
 }
