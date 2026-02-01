@@ -1426,11 +1426,6 @@ PrefabInstance:
       addedObject: {fileID: 1959242298}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f73d36c235f3470589676aa4e574fb5, type: 3}
---- !u!1 &761416289 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 48823674557947801, guid: cd27c24fc41440041ba30cd1e5084c57, type: 3}
-  m_PrefabInstance: {fileID: 8771022731569777449}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &957895327
 GameObject:
   m_ObjectHideFlags: 0
@@ -2132,25 +2127,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5162246281977216681, guid: cd27c24fc41440041ba30cd1e5084c57, type: 3}
   m_PrefabInstance: {fileID: 8771022731569777449}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1312168989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 761416289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e23fb26fb912c8c419f7cdc40f47f144, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HoleDetecion
-  gameManager: {fileID: 0}
-  playerTag: Player
-  popUpScalePercent: 0.1
-  popDuration: 0.12
-  holdDuration: 0.1
-  shrinkDuration: 0.35
-  spinDegrees: 720
 --- !u!1 &1509634429
 GameObject:
   m_ObjectHideFlags: 0
@@ -2889,10 +2865,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 48823674557947801, guid: cd27c24fc41440041ba30cd1e5084c57, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1312168989}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd27c24fc41440041ba30cd1e5084c57, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

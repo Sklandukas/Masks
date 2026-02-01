@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5062659958332438235}
   - component: {fileID: 1120724836160013975}
   - component: {fileID: 2387126991567910088}
+  - component: {fileID: -2398259787418704196}
   m_Layer: 0
   m_Name: MagicObstacle
   m_TagString: Obstacle
@@ -151,8 +152,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2650bfdab6f8449daa63fdd705f6911c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleBehavior
-  beKaukes: {fileID: 5568860126279488115, guid: 595f488cbb3173c41a28eb6ec675ab81, type: 3}
-  suKauke: {fileID: -5448767617690529703, guid: 595f488cbb3173c41a28eb6ec675ab81, type: 3}
-  spalveBeKaukes: {r: 0.12482201, g: 0.1516287, b: 0.8018868, a: 1}
-  spalveSuKauke: {r: 0.7735849, g: 0.11311854, b: 0.11311854, a: 1}
-  existsInSuKauke: 1
+  normalSprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  existsInAlternate: 1
+--- !u!114 &-2398259787418704196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3410401128301775266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e23fb26fb912c8c419f7cdc40f47f144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoleDetecion
+  gameManager: {fileID: 0}
+  playerTag: Player
+  popUpScalePercent: 0.1
+  popDuration: 0.12
+  holdDuration: 0.1
+  shrinkDuration: 0.35
+  spinDegrees: 720
