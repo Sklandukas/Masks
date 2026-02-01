@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_7
+      name: Hoshi_1
       rect:
         serializedVersion: 2
         x: 309
@@ -405,7 +405,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_8
+      name: Hoshi_6
       rect:
         serializedVersion: 2
         x: 1270
@@ -427,7 +427,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_9
+      name: Hoshi_11
       rect:
         serializedVersion: 2
         x: 2138
@@ -471,7 +471,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_11
+      name: Supra_1
       rect:
         serializedVersion: 2
         x: 5269
@@ -493,7 +493,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_12
+      name: Supra_6
       rect:
         serializedVersion: 2
         x: 6261
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_13
+      name: Supra_11
       rect:
         serializedVersion: 2
         x: 7129
@@ -537,11 +537,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_14
+      name: Hoshi_12
       rect:
         serializedVersion: 2
         x: 2138
-        y: 4990
+        y: 5003
         width: 653
         height: 901
       alignment: 7
@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_16
+      name: Supra_2
       rect:
         serializedVersion: 2
         x: 5238
@@ -603,7 +603,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_17
+      name: Supra_12
       rect:
         serializedVersion: 2
         x: 7129
@@ -625,7 +625,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_18
+      name: Hoshi_2
       rect:
         serializedVersion: 2
         x: 309
@@ -647,7 +647,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_19
+      name: Hoshi_7
       rect:
         serializedVersion: 2
         x: 1301
@@ -669,7 +669,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_20
+      name: Supra_7
       rect:
         serializedVersion: 2
         x: 6261
@@ -691,7 +691,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_21
+      name: Hoshi_3
       rect:
         serializedVersion: 2
         x: 340
@@ -713,7 +713,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_22
+      name: Hoshi_8
       rect:
         serializedVersion: 2
         x: 1301
@@ -735,7 +735,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_23
+      name: Hoshi_13
       rect:
         serializedVersion: 2
         x: 2138
@@ -757,7 +757,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_24
+      name: Supra_3
       rect:
         serializedVersion: 2
         x: 5269
@@ -779,7 +779,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_25
+      name: Supra_8
       rect:
         serializedVersion: 2
         x: 6292
@@ -801,7 +801,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_26
+      name: Supra_13
       rect:
         serializedVersion: 2
         x: 7129
@@ -823,7 +823,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_27
+      name: Hoshi_4
       rect:
         serializedVersion: 2
         x: 433
@@ -845,7 +845,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_28
+      name: Hoshi_9
       rect:
         serializedVersion: 2
         x: 1394
@@ -867,7 +867,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_29
+      name: Hoshi_14
       rect:
         serializedVersion: 2
         x: 2417
@@ -889,7 +889,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_30
+      name: Supra_4
       rect:
         serializedVersion: 2
         x: 5455
@@ -911,7 +911,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_31
+      name: Supra_9
       rect:
         serializedVersion: 2
         x: 6416
@@ -933,7 +933,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_32
+      name: Supra_14
       rect:
         serializedVersion: 2
         x: 7346
@@ -955,7 +955,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_33
+      name: Hoshi_5
       rect:
         serializedVersion: 2
         x: 185
@@ -977,7 +977,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_34
+      name: Hoshi_10
       rect:
         serializedVersion: 2
         x: 1425
@@ -999,7 +999,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_35
+      name: Hoshi_15
       rect:
         serializedVersion: 2
         x: 2386
@@ -1021,7 +1021,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_36
+      name: Supra_5
       rect:
         serializedVersion: 2
         x: 5207
@@ -1043,7 +1043,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_37
+      name: Supra_10
       rect:
         serializedVersion: 2
         x: 6447
@@ -1065,10 +1065,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_38
+      name: Supra_15
       rect:
         serializedVersion: 2
-        x: 7315
+        x: 7302
         y: 2107
         width: 219
         height: 591
@@ -1087,7 +1087,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_39
+      name: Hoshi_16
       rect:
         serializedVersion: 2
         x: 2355
@@ -1131,10 +1131,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_41
+      name: Supra_17
       rect:
         serializedVersion: 2
-        x: 7284
+        x: 7271
         y: 1084
         width: 281
         height: 684
@@ -1153,7 +1153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_42
+      name: Hoshi_17
       rect:
         serializedVersion: 2
         x: 2355
@@ -1175,7 +1175,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enivorment2_43
+      name: Supra_16
       rect:
         serializedVersion: 2
         x: 7284
@@ -1213,47 +1213,47 @@ TextureImporter:
       Enivorment2_0: -4664871045015914965
       Enivorment2_1: -4863921084611065718
       Enivorment2_10: 5801160034308260627
-      Enivorment2_11: 1747213481780707969
-      Enivorment2_12: 3285852748772116366
-      Enivorment2_13: 7103951684602051995
-      Enivorment2_14: 1268518558056782365
       Enivorment2_15: -6080230865658952835
-      Enivorment2_16: -1549002506531358548
-      Enivorment2_17: -6387216302560122600
-      Enivorment2_18: 1136728974457867834
-      Enivorment2_19: 1625463672026928028
       Enivorment2_2: 4643203463886718950
-      Enivorment2_20: 1620666050334668901
-      Enivorment2_21: -6352202741070948842
-      Enivorment2_22: -5521275016434184318
-      Enivorment2_23: -5780219878314561731
-      Enivorment2_24: -1343149088123438767
-      Enivorment2_25: 6162357338993785592
-      Enivorment2_26: 2090380127905569461
-      Enivorment2_27: -8547247223441271408
-      Enivorment2_28: 159381599235266203
-      Enivorment2_29: -7872985115012148658
       Enivorment2_3: -6980803007162769385
-      Enivorment2_30: 3307679463848227477
-      Enivorment2_31: 1155599941590745845
-      Enivorment2_32: -8900398541569255260
-      Enivorment2_33: -4470455002908360066
-      Enivorment2_34: -9155855170135181670
-      Enivorment2_35: 8177947807428821138
-      Enivorment2_36: 1655001090907677309
-      Enivorment2_37: -8076383684831844136
-      Enivorment2_38: -1431702123281845913
-      Enivorment2_39: -8958126856213978623
       Enivorment2_4: 409139833865031255
       Enivorment2_40: 7237088357482114008
-      Enivorment2_41: 767964537426078706
-      Enivorment2_42: -5091435849576425316
-      Enivorment2_43: 2886434686108139491
       Enivorment2_5: -2586867146697857504
       Enivorment2_6: 1781090434705770769
-      Enivorment2_7: -8574360276905117292
-      Enivorment2_8: 6880788349197909807
-      Enivorment2_9: -1648214583151962757
+      Hoshi_1: -8574360276905117292
+      Hoshi_10: -9155855170135181670
+      Hoshi_11: -1648214583151962757
+      Hoshi_12: 1268518558056782365
+      Hoshi_13: -5780219878314561731
+      Hoshi_14: -7872985115012148658
+      Hoshi_15: 8177947807428821138
+      Hoshi_16: -8958126856213978623
+      Hoshi_17: -5091435849576425316
+      Hoshi_2: 1136728974457867834
+      Hoshi_3: -6352202741070948842
+      Hoshi_4: -8547247223441271408
+      Hoshi_5: -4470455002908360066
+      Hoshi_6: 6880788349197909807
+      Hoshi_7: 1625463672026928028
+      Hoshi_8: -5521275016434184318
+      Hoshi_9: 159381599235266203
+      Supra_1: 1747213481780707969
+      Supra_10: -8076383684831844136
+      Supra_11: 7103951684602051995
+      Supra_12: -6387216302560122600
+      Supra_13: 2090380127905569461
+      Supra_14: -8900398541569255260
+      Supra_15: -1431702123281845913
+      Supra_16: 2886434686108139491
+      Supra_17: 767964537426078706
+      Supra_2: -1549002506531358548
+      Supra_3: -1343149088123438767
+      Supra_4: 3307679463848227477
+      Supra_5: 1655001090907677309
+      Supra_6: 3285852748772116366
+      Supra_7: 1620666050334668901
+      Supra_8: 6162357338993785592
+      Supra_9: 1155599941590745845
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
