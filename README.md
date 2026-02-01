@@ -2,7 +2,7 @@
 
 - [ ] Game over state detection - stop player moving, initiate the animation
 - [x] Game Over Animation - fall up, spin, fall down (smth like that)
-- [ ] Fix mask passing - player who throws the mask should stop seeing obstacles immediately
+- [x] Fix mask passing - player who throws the mask should stop seeing obstacles immediately
 - [ ] Successful game end?
 - [x] Game Over Screen
 - [x] Start Button
