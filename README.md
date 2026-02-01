@@ -5,7 +5,7 @@
 - [x] Fix mask passing - player who throws the mask should stop seeing obstacles immediately
 - [x] Make Hole visible when it is invisible but player hits it
 - [ ] Object drawing - when player has not reached a tree or grass it should be drawn behind it , when it is past it should be drawn on it
-- [ ] Wind swaying grass prefab
+- [x] Wind swaying grass prefab. 
 - [ ] Successful game end?
 - [x] Game Over Screen
 - [x] Start Button
