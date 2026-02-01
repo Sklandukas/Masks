@@ -30,7 +30,7 @@ public class MaskPasser : MonoBehaviour
 
     void Start()
     {
-        AttachToHolder();
+        AttachToHolder(holder);
         UpdateLaneManagersForHolder(holder);
     }
 
@@ -43,23 +43,27 @@ public class MaskPasser : MonoBehaviour
 
         if (holder == Holder.Player1 && kb.leftShiftKey.wasPressedThisFrame)
         {
+            RemoveMaskFromHolder(holder);
             StartCoroutine(FlyTo(player2Hand, Holder.Player2));
             return;
         }
 
         if (holder == Holder.Player2 && kb.rightShiftKey.wasPressedThisFrame)
         {
+            RemoveMaskFromHolder(holder);
             StartCoroutine(FlyTo(player1Hand, Holder.Player1));
             return;
         }
     }
 
-    private void AttachToHolder()
+    private void AttachToHolder(Holder holder)
     {
-        Transform targetHand = (holder == Holder.Player1) ? player1Hand : player2Hand;
-        transform.SetParent(targetHand);
-        transform.localPosition = Vector3.zero;
-        transform.localRotation = Quaternion.identity;
+        if (holder == Holder.Player1)
+            AddMaskToHolder(holder);
+        else if (holder == Holder.Player2)
+            AddMaskToHolder(holder);
+        else
+            Debug.LogError($"[MaskPasser] Invalid holder: {holder}");
     }
 
     private IEnumerator FlyTo(Transform target, Holder newHolder)
@@ -103,7 +107,7 @@ public class MaskPasser : MonoBehaviour
         transform.rotation = startRot * Quaternion.Euler(0f, 0f, spinDegrees);
 
         holder = newHolder;
-        AttachToHolder();
+        AttachToHolder(holder);
         UpdateLaneManagersForHolder(holder);
 
         isFlying = false;
@@ -115,5 +119,26 @@ public class MaskPasser : MonoBehaviour
             laneManagerForPlayer1.SetMaskState(whoHasMask == Holder.Player1);
         if (laneManagerForPlayer2 != null)
             laneManagerForPlayer2.SetMaskState(whoHasMask == Holder.Player2);
+    }
+
+
+    void RemoveMaskFromHolder(Holder holder)
+    {
+        if (holder == Holder.Player1)
+            laneManagerForPlayer1.SetMaskState(false);
+        if (holder == Holder.Player2)
+            laneManagerForPlayer2.SetMaskState(false);
+    }
+
+    void AddMaskToHolder(Holder holder)
+    {
+        Transform targetHand = (holder == Holder.Player1) ? player1Hand : player2Hand;
+        transform.SetParent(targetHand);
+        transform.localPosition = Vector3.zero;
+        transform.localRotation = Quaternion.identity;
+        if (holder == Holder.Player1)
+            laneManagerForPlayer1.SetMaskState(true);
+        if (holder == Holder.Player2)
+            laneManagerForPlayer2.SetMaskState(true);
     }
 }
